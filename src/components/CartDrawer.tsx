@@ -240,7 +240,7 @@ export function CartDrawer({
                   className="mt-2 h-10 w-full rounded-lg border border-[#012C6D]/20 bg-[#F8FAFC] px-3 text-sm font-medium text-[#0D1526]"
                 >
                   <option value="pickup-pretoria">
-                    Collect at Derdepoort Showroom (Free)
+                    Sample pickup option (Free)
                   </option>
                   <option value="gauteng-courier">
                     Gauteng Courier (Pretoria / JHB / Centurion)
@@ -286,7 +286,7 @@ export function CartDrawer({
                     type="tel"
                     value={form.phone}
                     onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                    placeholder="072 609 0186"
+                    placeholder="e.g. 071 000 0000"
                     className="mt-1 h-10 w-full rounded-lg border border-[#012C6D]/20 px-3 text-sm focus:border-[#012C6D] focus:outline-none"
                   />
                   {errors.phone && (

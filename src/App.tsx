@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { CartDrawer } from './components/CartDrawer';
 import { CatalogSection } from './components/CatalogSection';
 import { Header } from './components/Header';
+import { GrowthGuideSection } from './components/GrowthGuideSection';
 import { HeroShowcase } from './components/HeroShowcase';
 import { PartyHireSection } from './components/PartyHireSection';
 import { ProductModal } from './components/ProductModal';
@@ -115,6 +116,7 @@ export default function App() {
         />
 
         <PartyHireSection />
+        <GrowthGuideSection />
       </main>
 
       <ShowroomFooter />

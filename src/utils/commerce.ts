@@ -226,7 +226,7 @@ export function validateCheckoutForm(form: CheckoutFormInput, zone: DeliveryZone
     errors.fullName = 'Please enter your full name or business name.';
   }
   if (form.phone.replace(/\D/g, '').length < 9) {
-    errors.phone = 'Enter a valid South African contact number (e.g. 072 609 0186).';
+    errors.phone = 'Enter a valid-format sample South African contact number.';
   }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
     errors.email = 'Enter a valid email address for your tax invoice.';

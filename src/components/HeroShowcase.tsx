@@ -43,7 +43,7 @@ export function HeroShowcase({ onInspectProduct, onJumpToHire }: HeroShowcasePro
           <div className="flex flex-col justify-between lg:col-span-6">
             <div>
               <p className="text-xs font-semibold tracking-[0.12em] text-[#0170B9] uppercase">
-                Derdepoort, Pretoria · Nationwide South Africa Courier
+                South African food-service · Independent concept
               </p>
 
               <h1

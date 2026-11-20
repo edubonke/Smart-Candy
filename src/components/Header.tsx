@@ -53,10 +53,10 @@ export function Header({
             Party Hire
           </a>
           <a
-            href="#showroom"
+            href="#guides"
             className="whitespace-nowrap shrink-0 text-sm font-medium text-[#0D1526] underline-offset-4 transition-colors duration-150 hover:text-[#012C6D] hover:underline"
           >
-            Showroom
+            Buying Guides
           </a>
         </nav>
 
@@ -123,11 +123,11 @@ export function Header({
               Party Hire
             </a>
             <a
-              href="#showroom"
+              href="#guides"
               onClick={() => setMobileOpen(false)}
               className="py-1.5 text-sm font-semibold text-[#0D1526]"
             >
-              Pretoria Showroom
+              Buying Guides
             </a>
           </div>
         </nav>
