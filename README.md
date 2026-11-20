@@ -10,7 +10,7 @@ Standalone React/Vite storefront based on the supplied Google AI Studio export. 
 4. Run commerce tests: `npm test`
 5. Build: `npm run build`
 
-No AI keys or backend credentials are needed for the storefront concept.
+No AI keys or backend credentials are needed for the storefront concept. The build generates 15 independently addressable buying-guide and rental pages, including non-transactional calculators, and validates their links and indexing safeguards. See [commercial launch checklist](docs/COMMERCIAL-LAUNCH.md) for the conditions required before production launch.
 
 ## Deploy to GitHub Pages
 

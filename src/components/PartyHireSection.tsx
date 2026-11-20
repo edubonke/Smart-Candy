@@ -86,7 +86,7 @@ export function PartyHireSection() {
               </div>
               <div>
                 <div className="font-mono text-2xl font-bold text-[#00AEEF] tabular-nums">08:00</div>
-                <div className="mt-1 text-xs text-white/75">Derdepoort Dispatch</div>
+                <div className="mt-1 text-xs text-white/75">Sample Setup Time</div>
               </div>
             </div>
 
@@ -304,7 +304,7 @@ export function PartyHireSection() {
                       type="tel"
                       value={form.phone}
                       onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                      placeholder="e.g. 072 609 0186"
+                      placeholder="e.g. 071 000 0000"
                       className="mt-1 h-10 w-full rounded-lg border border-[#012C6D]/20 px-3 text-sm focus:border-[#012C6D] focus:outline-none"
                     />
                     {errors.phone && (
@@ -353,9 +353,11 @@ export function PartyHireSection() {
                       Machine: <strong className="font-mono text-[#0D1526] tabular-nums">{formatZAR(quote.baseRateZar)}</strong>
                       {' · '}Delivery:{' '}
                       <strong className="font-mono text-[#0D1526] tabular-nums">{formatZAR(quote.deliveryFeeZar)}</strong>
+                      {' · '}Extras: <strong>{formatZAR(quote.extrasZar)}</strong>
+                      {' · '}Attendant: <strong>{formatZAR(quote.attendantFeeZar)}</strong>
                     </div>
                     <div className="mt-0.5">
-                      Refundable deposit of {formatZAR(quote.refundableDepositZar)} applies on delivery.
+                      Sample refundable deposit: {formatZAR(quote.refundableDepositZar)} (separate from estimate). Total including deposit: {formatZAR(quote.totalEstimateZar + quote.refundableDepositZar)}.
                     </div>
                   </div>
 
